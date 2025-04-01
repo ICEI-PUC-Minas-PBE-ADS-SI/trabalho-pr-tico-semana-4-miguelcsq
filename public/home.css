@@ -13,20 +13,6 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-
-.input-wrapper {
-  display: flex;
-  justify-content: right;
-  margin-left: auto;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  color: white;
-  float: right;
 }
 
 img {
@@ -35,7 +21,6 @@ img {
 
 .imgheader {
   justify-content: center;
-  padding-right: 0px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -53,6 +38,7 @@ img {
   text-decoration: none;
   color: white;
   padding: 15px;
+  display: none;
 }
 
 .footer {
@@ -63,17 +49,25 @@ img {
   padding-top: 30px;
 }
 
-.card {
-  display: inline-block;
+.container {
+  display: block;
   justify-content: center;
   width: calc(33% - 16px);
-  vertical-align: top;
   margin: 8px;
-  padding: 50px;
+  padding: 25px;
   background-color: white;
   border-radius: 5px;
   font-weight: 300;
 }
+
+.card {
+  padding: 16px;
+  align-items: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row ;
+}
+
 
 .preparo {
   width: 500px;
@@ -85,12 +79,11 @@ img {
   font-weight: 300;
 }
 
-h1 {
+.titulo {
   text-align: center;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   color: #c94f1a;
-  margin-bottom: 20px;
 }
 
 .destaques {
@@ -107,12 +100,39 @@ li {
 }
 
 ul {
-  margin-bottom: 40px;
+  padding-right: 32px;
 }
 
-button {
+.button {
+  display: flex;
   border: none;
-  margin-top: 50px;
+  margin-top: 15px;
+  text-decoration: none;
+  background-color: #c94f1a;
+  color: white;
+  padding: 15px;
+  font-weight: 400px;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+button{
+  border: none;
+  text-decoration: none;
+  background-color: #c94f1a;
+  color: white;
+  font-weight: 400px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+ 
+}
+
+a {
+  border: none;
+  margin-top: 15px;
   text-decoration: none;
   background-color: #c94f1a;
   color: white;
@@ -141,52 +161,12 @@ button:hover {
   color: white;
 }
 
-/* Celulares */
-
-@media screen and (max-width: 450px) {
-  .card {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 95%;
-    height: 600px;
-  }
-
-  .destaques {
-    text-align: center;
-    font-weight: 400;
-    font-size: 25px;
-    margin-left: 15%;
-  }
-
-  h1 {
-    width: 300px;
-    font-weight: 400px;
-    font-size: 20px;
-  }
-
-  h3 {
-    margin: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: auto;
-  }
-  ul {
-    margin-right: 30px;
-  }
-
-  .button {
-    margin-right: 10px;
-  }
-
-
-  /*Cabeçalho*/
-
-  .navbar,
-  .input-wrapper {
-    display: none;
-  }
+.alinhamento {
+  display: flex;
+  gap: 10px ;
+  margin: 20px;
 }
+
+
+
 
