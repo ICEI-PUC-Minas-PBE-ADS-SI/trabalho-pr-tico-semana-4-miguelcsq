@@ -8,15 +8,15 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Miguel Campos Soares Querino 
+- Matricula: 882253
+- Proposta de projeto escolhida: Site de receitas 
+- Breve descrição sobre seu projeto: Site de receitas, com 3 receitas principais com funcionalidades requisitadas na atividade 
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](responsividadecsspuro.png) >>
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](responsividadebootstrap.png) >>
